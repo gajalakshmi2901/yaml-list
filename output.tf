@@ -22,3 +22,4 @@ output "all_map_imports" {
   value       = local.all_map_imports
   description = "Combined imports from local and remote map configs"
 }
+
