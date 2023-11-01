@@ -1,8 +1,6 @@
 
 module "this" {
   source  = "github.com/gajalakshmi2901/tag-label.git"
-  version = "0.25.0" # requires Terraform >= 0.13.0
-
   enabled             = var.enabled
   namespace           = var.namespace
   tenant              = var.tenant
@@ -19,8 +17,6 @@ module "this" {
 
   context = var.context
 }
-
-# Copy contents of cloudposse/terraform-null-label/variables.tf here
 
 variable "context" {
   type = any
